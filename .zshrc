@@ -28,6 +28,9 @@ source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 source $ZSH/oh-my-zsh.sh
 
+# Alias
+alias vi="nvim"
+
 # use starship theme (needs to be at the end)
 eval "$(starship init zsh)"
 
