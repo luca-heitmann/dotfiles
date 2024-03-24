@@ -1,0 +1,3 @@
+[submodule "/Users/luca/.config/nvim"]
+	path = /Users/luca/.config/nvim
+	url = https://github.com/NvChad/starter
