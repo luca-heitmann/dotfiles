@@ -28,8 +28,15 @@ source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 source $ZSH/oh-my-zsh.sh
 
+# key bindings
+bindkey "^S" fzf-cd-widget
+
 # Alias
 alias vi="nvim"
+alias ls="eza --icons"
+
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --zsh)"
 
 # use starship theme (needs to be at the end)
 eval "$(starship init zsh)"
