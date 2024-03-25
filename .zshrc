@@ -33,7 +33,7 @@ bindkey "^S" fzf-cd-widget
 
 # Alias
 alias vi="nvim"
-alias ls="eza --icons"
+alias ll="eza -l --icons"
 
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --zsh)"
