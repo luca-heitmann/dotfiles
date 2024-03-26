@@ -41,3 +41,6 @@ eval "$(fzf --zsh)"
 # use starship theme (needs to be at the end)
 eval "$(starship init zsh)"
 
+# add direnv hook
+eval "$(direnv hook zsh)"
+
