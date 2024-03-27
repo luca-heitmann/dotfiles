@@ -44,3 +44,8 @@ eval "$(starship init zsh)"
 # add direnv hook
 eval "$(direnv hook zsh)"
 
+# Nix
+if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
+  . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
+fi
+
