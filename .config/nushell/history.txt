@@ -1,0 +1,4 @@
+vi .zshenv
+vi .zshrc
+$nu.config-path
+exit
