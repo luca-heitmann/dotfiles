@@ -34,6 +34,7 @@ bindkey "^S" fzf-cd-widget
 # Alias
 alias vi="nvim"
 alias ll="eza -l --icons"
+alias brewup="brew update && brew upgrade && brew upgrade --cask --greedy && brew cleanup"
 
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --zsh)"
